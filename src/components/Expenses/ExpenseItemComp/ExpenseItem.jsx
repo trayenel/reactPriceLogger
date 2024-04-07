@@ -2,9 +2,11 @@ import { useState } from "react";
 import "./ExpenseItem.css";
 import ExpenseDate from "../ExpenseDateComp/ExpenseDate.jsx";
 import Card from "../../UI/card-comp/Card.jsx";
+import ExpensesFilter from "../ExpenseFilterComp/ExpensesFilter.jsx";
 
 function ExpenseItem(props) {
   const [title, setTitle] = useState(props.expense.title);
+
   const clickHandler = () => {
     setTitle("Updated!");
   };
