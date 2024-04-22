@@ -1,4 +1,3 @@
-import ExpenseItem from "./components/Expenses/ExpenseItemComp/ExpenseItem.jsx";
 import "./App.css";
 import Card from "./components/UI/card-comp/Card.jsx";
 import NewExpenseComp from "./components/Expenses/NewExpenseComp/NewExpenseComp.jsx";
